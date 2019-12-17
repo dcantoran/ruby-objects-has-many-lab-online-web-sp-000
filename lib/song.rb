@@ -20,6 +20,7 @@ class Song
     # else 
     #   self.artist.name
     # end 
+    artist.name if artist 
   end 
   
 end 
