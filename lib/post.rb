@@ -16,7 +16,7 @@ class Post
   end 
   
   def author_name
-    nil if Post.includes?(author) else self.author.name 
+    nil if Post.includes?(author) else self.author.name end 
     # binding.pry
   end 
   
