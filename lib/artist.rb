@@ -6,7 +6,7 @@ class Artist
   end 
   
   def songs 
-    Song.all.author
+    Song.all
     binding.pry
   end 
   
