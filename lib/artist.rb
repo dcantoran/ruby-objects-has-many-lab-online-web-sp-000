@@ -6,6 +6,7 @@ class Artist
   
   def songs 
     Song.all.name 
+    binding.pry
   end 
   
   def add_song(song)
